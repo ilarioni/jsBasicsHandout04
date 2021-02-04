@@ -77,4 +77,17 @@ points.sort(function(a,b){
 });
 console.log(points);
 
+// sort() reverse() the compare function using sort
 
+// Array Iteration Methods
+
+// forEach()
+// map()
+// filter()
+// reduce
+// every()
+// some()
+// indexOf()
+// lastIndexOf()
+// find()
+// findIndex()
