@@ -119,3 +119,16 @@ function mySum(total, value, index, array) {
     return total + value;
 }
 console.log("sum is - " + sum);
+
+var numbers22 = [45,4,9,16,25];
+var allOver18 = numbers22.every(myOver);
+function myOver(value, index, array) {
+    return value > 18;
+}
+console.log("it says if all members of array passed the text - " + allOver18);
+var numeric = [45,4,9,16,25];
+var someOver18 = numeric.some(myTest);
+function myTest(value, index, array) {
+    return value > 18;
+}
+console.log("it shows if some of the array elements passed the test - " + someOver18);
