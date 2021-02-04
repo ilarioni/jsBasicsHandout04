@@ -16,3 +16,13 @@ console.log(fruits.shift());
 console.log(fruits);
 console.log(fruits.unshift("Lemon"));
 console.log(fruits);
+
+// changing elements with index numbers
+var vegetables = ["Banana", "Orange", "Apple", "Mango"];
+vegetables[0] = "Kiwi";
+console.log(vegetables);
+
+// adding element with length method
+vegetables[vegetables.length] = "Lemon";
+console.log(vegetables);
+
