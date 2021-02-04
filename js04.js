@@ -10,3 +10,9 @@ console.log(fruits.pop());
 console.log(fruits);
 console.log(fruits.push("Kiwi"));
 console.log(fruits);
+
+// shift() unshift() - first element on the left side
+console.log(fruits.shift());
+console.log(fruits);
+console.log(fruits.unshift("Lemon"));
+console.log(fruits);
