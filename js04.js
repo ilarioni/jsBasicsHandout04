@@ -132,3 +132,14 @@ function myTest(value, index, array) {
     return value > 18;
 }
 console.log("it shows if some of the array elements passed the test - " + someOver18);
+
+var food = ["Apple", "Orange", "Kiwi", "Mango"];
+var a = food.indexOf("Apple");
+console.log("above mentined element has position - " + a);
+
+var chords = [4,3,16,15,29];
+var first = chords.find(myChords);
+function myChords(value, index, array) {
+    return value > 18;
+}
+console.log("this is first elements that passed the test - " + first);
