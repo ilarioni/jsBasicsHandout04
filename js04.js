@@ -105,3 +105,17 @@ function myFunction(value) {
     return value * 2;
 }
 console.log(numbers2);
+
+var num = [45,4,9,16,25];
+var over18 = num.filter(myFunk);
+function myFunk(value, index, array) {
+    return value > 18;
+}
+console.log(over18);
+
+var numb1 = [45,4,9,16,25];
+var sum = numb1.reduce(mySum);
+function mySum(total, value, index, array) {
+    return total + value;
+}
+console.log("sum is - " + sum);
