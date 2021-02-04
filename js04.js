@@ -47,3 +47,12 @@ console.log(myChildren);
 var myNeighbours = ["Markus", "Flo"];
 var myPeople = myGirls.concat(myBoys,myNeighbours);
 console.log(myPeople);
+
+// slice()
+
+var cities = ["Munich", "Regensburg", "Augsburg", "Passau", "Nuremberg"];
+console.log(cities);
+console.log(cities.slice(2));
+console.log(cities.slice(2,4));
+
+
