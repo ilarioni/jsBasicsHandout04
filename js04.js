@@ -37,3 +37,13 @@ console.log(cars);
 //we can use splice() method to remove elements
 console.log(cars.splice(0,1));
 console.log(cars);
+
+// concat()
+var myGirls = ["Cecilie", "Lone"];
+var myBoys = ["Emil", "Tobias", "Linus"];
+var myChildren = myGirls.concat(myBoys);
+console.log(myChildren);
+
+var myNeighbours = ["Markus", "Flo"];
+var myPeople = myGirls.concat(myBoys,myNeighbours);
+console.log(myPeople);
