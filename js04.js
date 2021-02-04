@@ -55,4 +55,26 @@ console.log(cities);
 console.log(cities.slice(2));
 console.log(cities.slice(2,4));
 
+// Array methods
+// toSting() join()
+// pop() push()
+// shift() unshift() 
+// splice() concat() slice()
+
+// Array sorting 
+
+console.log(cities.sort());
+console.log(cities.reverse());
+
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a,b){
+    return b - a
+});
+console.log(points);
+
+points.sort(function(a,b){
+    return a - b
+});
+console.log(points);
+
 
